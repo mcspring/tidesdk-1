@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TideSDK Documentation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="fragment" content="!">
+
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+  <link rel="stylesheet" href="resources/css/app.css" type="text/css" />
+  <link rel="stylesheet" href="resources/prettify/prettify.css" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Exo" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="extjs/ext-all.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="resources/prettify/prettify.js"></script>
+
+  <link rel='stylesheet' href='resources/css/welcome.css' type='text/css'>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34456520-2']);
+  _gaq.push(['_trackPageview', location.pathname + location.search + location.hash]);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+    //Hack to track Hash changes as pageviews.
+    var oldhash = location.hash;
+    setInterval(function(){
+        if(oldhash != location.hash){
+          oldhash = location.hash;
+          _gaq.push(['_trackPageview'], location.pathname + location.search + location.hash);
+        }
+    }, 500);
+  })();
+
+</script>
+
+</head>
+<body id="ext-body">
+
+  <div id="loading"><span class="title"></span><span class="logo"></span></div>
+
+  <div id="header-content">TideSDK docs</div>
+  <div id='welcome-content' style='display:none'><div class="wpage">
+	<div class="header">
+		<img src="resources/images/box.jpg" class="teaser">
+		<h2>Create multi-platform desktop apps</h2>
+		<h1>with HTML5, CSS3 and JavaScript</h1>
+		<p class="intro">
+			TideSDK formerly known as Titanium Desktop is the best way to create beautiful, unique desktop apps using your web development skills.
+		</p>
+		<a href="http://tidesdk.multipart.net/tidesdk/builds/" target="_blank" class="download">Download Nightly</a>
+	</div>
+
+	<hr>
+
+	<div class="column">
+		<h2>Read our guides</h2>
+		<p>Wrap your head around TideSDK quickly and start to create your own desktop apps with HTML5, CSS3 and JavaScript after a couple of minutes.<br>
+			<a href="index.html#!/guide" class="btn btn-warning">To the guides section</a>
+	</div><div class="column">
+		<h2>Explore the API</h2>
+		<p>You have to know your toolset. Head over to our API documentation now. <br><br>
+			<a href="index.html#!/api" class="btn btn-warning">To the API documentation</a>
+	</div><div class="column">
+		<h2>Contribute</h2>
+		<p>
+			There is MUCH work to put into TideSDK and we need every possible help to bring this project to its full potential. Contact us now, any help is appreciated!<br>
+			<a href="mailto:contribute@tidesdk.org" class="btn btn-warning">Drop us a mail</a>
+		</p>
+	</div><div class="column updates">
+		<h2>Recent Doc Updates</h2>
+		<p>
+    Fixed formatting and added code examples to <a href="index.html#!/api/Ti.Filesystem">Ti.Filesystem</a><br>
+    <i>Sep 5 2012</i>
+</p>
+<p>
+    Added missing properties, methods and events to <a href="index.html#!/api/Ti.UI.UserWindow">Ti.UI.UserWindow</a><br>
+    <i>Sep 2 2012</i>
+</p>
+
+	</div>
+</div></div>
+          <div id='categories-content' style='display:none'>
+            <div class='section'>
+<h1>Ti</h1>
+<div class='left-column'>
+<h3>API</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.API.Application" rel="Ti.API.Application" class="docClass">Ti.API.Application</a>
+<a href="index.html#!/api/Ti.API.Component" rel="Ti.API.Component" class="docClass">Ti.API.Component</a>
+<a href="index.html#!/api/Ti.API.Dependency" rel="Ti.API.Dependency" class="docClass">Ti.API.Dependency</a>
+<a href="index.html#!/api/Ti.API.Script" rel="Ti.API.Script" class="docClass">Ti.API.Script</a>
+</div>
+<h3>App</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.App.Properties" rel="Ti.App.Properties" class="docClass">Ti.App.Properties</a>
+</div>
+<h3>Database</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Database.DB" rel="Ti.Database.DB" class="docClass">Ti.Database.DB</a>
+<a href="index.html#!/api/Ti.Database.ResultSet" rel="Ti.Database.ResultSet" class="docClass">Ti.Database.ResultSet</a>
+</div>
+<h3>Filesystem</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Filesystem.AsyncCopy" rel="Ti.Filesystem.AsyncCopy" class="docClass">Ti.Filesystem.AsyncCopy</a>
+<a href="index.html#!/api/Ti.Filesystem.File" rel="Ti.Filesystem.File" class="docClass">Ti.Filesystem.File</a>
+<a href="index.html#!/api/Ti.Filesystem.Filestream" rel="Ti.Filesystem.Filestream" class="docClass">Ti.Filesystem.Filestream</a>
+</div>
+</div>
+<div class='middle-column'>
+<h3>Media</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Media.Sound" rel="Ti.Media.Sound" class="docClass">Ti.Media.Sound</a>
+</div>
+<h3>Network</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Network.Host" rel="Ti.Network.Host" class="docClass">Ti.Network.Host</a>
+<a href="index.html#!/api/Ti.Network.HTTPClient" rel="Ti.Network.HTTPClient" class="docClass">Ti.Network.HTTPClient</a>
+<a href="index.html#!/api/Ti.Network.HTTPCookie" rel="Ti.Network.HTTPCookie" class="docClass">Ti.Network.HTTPCookie</a>
+<a href="index.html#!/api/Ti.Network.HTTPServer" rel="Ti.Network.HTTPServer" class="docClass">Ti.Network.HTTPServer</a>
+<a href="index.html#!/api/Ti.Network.HTTPServerRequest" rel="Ti.Network.HTTPServerRequest" class="docClass">Ti.Network.HTTPServerRequest</a>
+<a href="index.html#!/api/Ti.Network.HTTPServerResponse" rel="Ti.Network.HTTPServerResponse" class="docClass">Ti.Network.HTTPServerResponse</a>
+<a href="index.html#!/api/Ti.Network.Interface" rel="Ti.Network.Interface" class="docClass">Ti.Network.Interface</a>
+<a href="index.html#!/api/Ti.Network.IPAddress" rel="Ti.Network.IPAddress" class="docClass">Ti.Network.IPAddress</a>
+<a href="index.html#!/api/Ti.Network.TCPSocket" rel="Ti.Network.TCPSocket" class="docClass">Ti.Network.TCPSocket</a>
+</div>
+<h3>Notification</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Notification.Notification" rel="Ti.Notification.Notification" class="docClass">Ti.Notification.Notification</a>
+</div>
+<h3>Process</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Process.Pipe" rel="Ti.Process.Pipe" class="docClass">Ti.Process.Pipe</a>
+<a href="index.html#!/api/Ti.Process.Process" rel="Ti.Process.Process" class="docClass">Ti.Process.Process</a>
+</div>
+</div>
+<div class='right-column'>
+<h3>UI</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.UI.Clipboard" rel="Ti.UI.Clipboard" class="docClass">Ti.UI.Clipboard</a>
+<a href="index.html#!/api/Ti.UI.Dialog" rel="Ti.UI.Dialog" class="docClass">Ti.UI.Dialog</a>
+<a href="index.html#!/api/Ti.UI.Menu" rel="Ti.UI.Menu" class="docClass">Ti.UI.Menu</a>
+<a href="index.html#!/api/Ti.UI.MenuItem" rel="Ti.UI.MenuItem" class="docClass">Ti.UI.MenuItem</a>
+<a href="index.html#!/api/Ti.UI.Tray" rel="Ti.UI.Tray" class="docClass">Ti.UI.Tray</a>
+<a href="index.html#!/api/Ti.UI.UserWindow" rel="Ti.UI.UserWindow" class="docClass">Ti.UI.UserWindow</a>
+</div>
+<h3>Worker</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Worker.Worker" rel="Ti.Worker.Worker" class="docClass">Ti.Worker.Worker</a>
+</div>
+<h3>Miscellaneous</h3>
+<div class='links'>
+<a href="index.html#!/api/Ti.Bytes" rel="Ti.Bytes" class="docClass">Ti.Bytes</a>
+<a href="index.html#!/api/Ti.Codec" rel="Ti.Codec" class="docClass">Ti.Codec</a>
+<a href="index.html#!/api/Ti.JSON" rel="Ti.JSON" class="docClass">Ti.JSON</a>
+<a href="index.html#!/api/Ti.Platform" rel="Ti.Platform" class="docClass">Ti.Platform</a>
+<a href="index.html#!/api/Ti.UpdateManager" rel="Ti.UpdateManager" class="docClass">Ti.UpdateManager</a>
+</div>
+</div>
+<div style='clear:both'></div>
+</div>
+        </div>
+
+          <div id='guides-content' style='display:none'>
+            <h3>General</h3>
+<ul>
+<li><a href='index.html#!/guide/doc_contribution'>Contributing to the documentation</a></li>
+<li><a href='index.html#!/guide/ide_autocompletion'>Setting up code completion</a></li>
+</ul>
+<h3>Legacy Titanium Guides</h3>
+<ul>
+<li><a href='index.html#!/guide/getting_started'>Getting started with TideSDK</a></li>
+</ul>
+        </div>
+
+  <div id='footer-content' style='display: none'>Generated with <a href='https://github.com/senchalabs/jsduck'>JSDuck</a> 3.11.1.</div>
+
+  
+
+</body>
+</html>
