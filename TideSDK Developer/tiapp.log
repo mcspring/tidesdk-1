@@ -1,0 +1,23 @@
+[15:14:36:364] [Ti.Host] [Information] Loaded module = app
+[15:14:36:366] [Ti.Host] [Information] Loaded module = codec
+[15:14:36:368] [Ti.Host] [Information] Loaded module = database
+[15:14:36:369] [Ti.Host] [Information] Loaded module = filesystem
+[15:14:36:370] [Ti.Host] [Information] Loaded module = media
+[15:14:36:372] [Ti.Host] [Information] Loaded module = monkey
+[15:14:36:379] [Ti.Host] [Information] Loaded module = network
+[15:14:36:381] [Ti.Host] [Information] Loaded module = platform
+[15:14:36:382] [Ti.Host] [Information] Loaded module = process
+[15:14:36:386] [Ti.Host] [Information] Loaded module = ui
+[15:14:36:387] [Ti.Host] [Information] Loaded module = worker
+[15:14:36:452] [Ti.Host] [Information] Loaded module = python
+[15:14:36:453] [Ti.JavaScript] [Information] Loading JS path=/Applications/TideSDK Developer.app/Contents/modules/filesystem/1.3.1-beta/tifilesystemmodule.js
+[15:14:36:455] [Ti.Host] [Information] Loaded module = tifilesystem
+[15:14:36:455] [Ti.JavaScript] [Information] Loading JS path=/Applications/TideSDK Developer.app/Contents/modules/network/1.3.1-beta/tinetworkmodule.js
+[15:14:36:458] [Ti.Host] [Information] Loaded module = tinetwork
+[15:14:36:458] [Ti.JavaScript] [Information] Loading JS path=/Applications/TideSDK Developer.app/Contents/modules/process/1.3.1-beta/tiprocessmodule.js
+[15:14:36:459] [Ti.Host] [Information] Loaded module = tiprocess
+[15:14:37:484] [Ti.UI.TideSDKProtocols] [Error] Error finding /Applications/TideSDK Developer.app/Contents/Resources/perspectives/projects/images/projects.png
+[15:19:00:958] [Ti.API] [Information] (JavaScript.KKJSList) [ "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta/tidebuilder.py", "-d", "/Users/yannoffredi/PhpstormProjects/winebookPlus/dist/osx", "-a", "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta", "-i", "dist,packages", "-n", "-r", "-v", "-s", "/Users/yannoffredi/Library/Application Support/TideSDK", "/Users/yannoffredi/PhpstormProjects/winebookPlus", ]
+[15:19:00:959] [Ti.API] [Information] process= "python"  "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta/tidebuilder.py"  "-d"  "/Users/yannoffredi/PhpstormProjects/winebookPlus/dist/osx"  "-a"  "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta"  "-i"  "dist,packages"  "-n"  "-r"  "-v"  "-s"  "/Users/yannoffredi/Library/Application Support/TideSDK"  "/Users/yannoffredi/PhpstormProjects/winebookPlus" 
+[07:13:38:141] [Ti.API] [Information] (JavaScript.KKJSList) [ "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta/tidebuilder.py", "-d", "/Users/yannoffredi/PhpstormProjects/fluiditSoft/dist/osx", "-a", "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta", "-i", "dist,packages", "-n", "-r", "-v", "-s", "/Users/yannoffredi/Library/Application Support/TideSDK", "/Users/yannoffredi/PhpstormProjects/fluiditSoft", ]
+[07:13:38:142] [Ti.API] [Information] process= "python"  "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta/tidebuilder.py"  "-d"  "/Users/yannoffredi/PhpstormProjects/fluiditSoft/dist/osx"  "-a"  "/Users/yannoffredi/Library/Application Support/TideSDK/sdk/osx/1.3.1-beta"  "-i"  "dist,packages"  "-n"  "-r"  "-v"  "-s"  "/Users/yannoffredi/Library/Application Support/TideSDK"  "/Users/yannoffredi/PhpstormProjects/fluiditSoft" 
